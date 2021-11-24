@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: url('/images/pizza.jpg') center no-repeat;
+  background: url('./images/pizza.jpg') center no-repeat;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -59,7 +59,7 @@ h2 {
 }
 
 .items-list input:checked + label:before {
-  content: url('images/check.png');
+  content: url('./images/check.png');
 }
 
 .add-items {
